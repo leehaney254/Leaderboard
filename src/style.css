@@ -1,0 +1,52 @@
+#flexs {
+  display: flex;
+  justify-content: space-around;
+}
+
+#refresh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#scoreboard {
+  width: 15rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  border: 3px solid #000;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+li:nth-child(even) {
+  background-color: lightgray;
+}
+
+.forminput {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+input {
+  border: 2.5px solid black;
+}
+
+.score {
+  margin-left: 0.5rem;
+}
+
+button {
+  background-color: white;
+  padding: 0.3rem 0.5rem;
+  box-shadow: 2px 5px 8px 3px #888;
+}
