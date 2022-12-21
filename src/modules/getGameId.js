@@ -1,4 +1,4 @@
-// 'Game with ID: AXMe3tCNpxDh9DMG2YR8 added.'
+// 'Game with ID: O5ZkO1M42lN1z1Kapqp0 added.'
 const getData = async () => {
   try {
     const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
