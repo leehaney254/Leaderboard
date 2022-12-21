@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Lato&family=Oswald:wght@300&family=Poppins&family=Roboto&display=swap');
+
+* {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #ad1deb, #6e72fc);
+  animation: gradient 10s linear infinite;
+}
+
 #flexs {
   display: flex;
   justify-content: space-around;
+  background-color: #fff;
+  border: 2.5px solid lightgray;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+#heading {
+  font-size: 3rem;
+  text-align: center;
 }
 
 #refresh {
@@ -16,15 +36,17 @@
 ul {
   list-style: none;
   padding: 0;
-  border: 3px solid #000;
+  border: 2.5px solid lightgray;
+  border-radius: 15px;
 }
 
 li {
   padding: 0.5rem;
+  border-radius: 10px;
 }
 
 li:nth-child(even) {
-  background-color: lightgray;
+  background-color: #0df4bc;
 }
 
 .forminput {
@@ -38,7 +60,10 @@ form {
 }
 
 input {
-  border: 2.5px solid black;
+  border: 2.5px solid lightgray;
+  border-radius: 15px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
 }
 
 .score {
@@ -46,10 +71,19 @@ input {
 }
 
 button {
-  background-color: white;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
   padding: 0.3rem 0.5rem;
-  box-shadow: 2px 5px 8px 3px #888;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
   cursor: pointer;
+  color: #fff;
+  font-size: 100%;
+  line-height: 1.15;
+}
+
+button:hover {
+  background-color: #ad1deb;
 }
 
 #warning {
