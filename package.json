@@ -2,8 +2,7 @@
   "name": "webpack",
   "version": "1.0.0",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/leehaney254/Leaderboard.git"
+    "url": "git+https://github.com/leehaney254/Leaderboard.git"
   },
   "description": "��#\u0000 \u0000w\u0000e\u0000b\u0000p\u0000a\u0000c\u0000k\u0000-\u0000t\u0000e\u0000m\u0000p\u0000l\u0000a\u0000t\u0000e\u0000\r\u0000 \u0000",
   "private": true,
