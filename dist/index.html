@@ -1,1 +1,38 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wbpack Exercise</title><script defer="defer" src="main.js"></script></head><body><h1>Hello webpack!</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leader Board</title>
+<script defer src="main.js"></script></head>
+
+<body>
+  <h1 id="heading">Leaderboard</h1>
+  <div id="flexs">
+    <aside id="scoreboard">
+      <div id="refresh">
+        <h2>Recent scores</h2>
+        <button type="button" id="refresh">Refresh</button>
+      </div>
+      <ul id="displayPlayers"></ul>
+    </aside>
+    <aside>
+      <h2>Add your score</h2>
+      <form>
+        <div class="forminput">
+          <input id="name" type="text" placeholder="Your name">
+        </div>
+        <div class="forminput">
+          <input id="scoreNum" type="number" placeholder="Your score">
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+        <p id="warning" class="noDisplay">Kindly confirm no field is empty!</p>
+      </form>
+    </aside>
+  </div>
+</body>
+
+</html>
