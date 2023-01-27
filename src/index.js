@@ -12,6 +12,7 @@ const warnignMessage = document.querySelector('#warning');
 
 const updateBoard = async () => {
   array = await getScore();
+  array.sort((a, b) => b.score - a.score);
   playersTable.innerHTML = '';
   array.forEach((element) => {
     playersTable.innerHTML += `
