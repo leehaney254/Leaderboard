@@ -97,3 +97,9 @@ button:hover {
 .display {
   display: inline;
 }
+
+@media only screen and (max-width: 600px) {
+  #flexs {
+    flex-direction: column;
+  }
+}
