@@ -15,8 +15,9 @@ const updateBoard = async () => {
   array.sort((a, b) => b.score - a.score);
   playersTable.innerHTML = '';
   array.forEach((element) => {
+    const scoreNumber = Number(element.score);
     playersTable.innerHTML += `
-    <li><span>${element.user}</span><span class="score">${element.score}</span></li>
+    <li class="list"><p>${element.user}</p><p class="score">${scoreNumber}</p></li>
     `;
   });
 };
